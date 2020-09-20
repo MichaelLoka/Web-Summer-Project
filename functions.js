@@ -137,7 +137,7 @@ function get_fontType(value = "sans-serif"){
 }
 function showInput() {
         var noteContent = document.getElementById('note_dis');
-        
+
         noteContent.style.color           = localStorage.getItem('fontColor')
         noteContent.style.backgroundColor = localStorage.getItem('fontBg')
         noteContent.style.fontSize        = localStorage.getItem('fontSize')
