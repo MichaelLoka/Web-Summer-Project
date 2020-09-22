@@ -82,14 +82,6 @@ pre{
   top: 30px;
   left: 50px;
 }
-.admin{
-  font-size: 30px;
-  color: #404040;
-  position: absolute;
-  top: 35px;
-  right: 40px;
-  font-weight: bold;
-}
 .lp_header{
   font-size: 50px;
   color: #404040;
@@ -133,17 +125,6 @@ pre{
   color: #404040;
   padding-top: 30px;
   margin-bottom: 100px;
-}
-.add{
-  font-size: 35px;
-  color: #404040;
-  padding: 0;
-  position: absolute;
-  top: 70px;
-  left: 100px;
-  background-image: url("images/note.jpg");
-  border: 0;
-  font-weight: bold;
 }
 .logout{
   font-size: 35px;

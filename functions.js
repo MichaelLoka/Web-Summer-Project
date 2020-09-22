@@ -144,19 +144,19 @@ function showInput() {
         noteContent.style.backgroundColor = localStorage.getItem('fontBg')
         noteContent.style.fontSize        = localStorage.getItem('fontSize')
         noteContent.style.fontFamily      = localStorage.getItem('fontType')
-        
-        noteContent.style.border          = "2px" 
-        noteContent.style.borderColor     = "black"
-        noteContent.style.borderStyle     = "solid" 
-        noteContent.style.padding         = "3px" 
- 
-        noteTitle.style.border          = "2px" 
-        noteTitle.style.borderColor     = "black"
-        noteTitle.style.borderStyle     = "solid" 
-        noteTitle.style.padding         = "5px" 
 
-        document.getElementById('title_dis').innerHTML = document.getElementById("title").value;
-        
+        noteContent.style.border          = "2px"
+        noteContent.style.borderColor     = "black"
+        noteContent.style.borderStyle     = "solid"
+        noteContent.style.padding         = "3px"
+
+        noteTitle.style.border          = "2px"
+        noteTitle.style.borderColor     = "black"
+        noteTitle.style.borderStyle     = "solid"
+        noteTitle.style.padding         = "5px"
+
+        noteTitle.innerHTML = document.getElementById("title").value;
+
         var word = 0;
         for ( var i = 0; i < paragraph.length ; i++)
         {
